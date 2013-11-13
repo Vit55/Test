@@ -24,12 +24,12 @@ attr_reader :options
 	  end
 end
 c1 = Car.new(
-	:model => "GAZ 2705 264"
-	:make => "Russia"
-	:engine_volume => 2800
-	:year_of_release => 2013
-	:transmission => "Mechanical"
-	:fuel => "Gasoline"
+	:model => "GAZ 2705 264",
+	:make => "Russia",
+	:engine_volume => 2800,
+	:year_of_release => 2013,
+	:transmission => "Mechanical",
+	:fuel => "Gasoline",
 	:steering_wheel => "left"
 	)
 
