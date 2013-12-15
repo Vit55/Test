@@ -159,14 +159,17 @@ c4 = Leg.new(
     :drive_gear => " "
     )
     
-    print "enter brand of car:"
+
+
+  
+  print "enter brand of car(bus,gaz,leg):"
     a = gets.chomp
-    if a == "bus"
-      puts c1.show
-      puts c2.show
-    elsif a == "gaz" 
-      puts c3.show
-    elsif a == "leg" 
-      puts c4.show
-    end
+  if a == "bus"
+    puts c1.show
+    puts c2.show
+  elsif a == "gaz" 
+    puts c3.show
+  elsif a == "leg" 
+    puts c4.show
+  end
       
